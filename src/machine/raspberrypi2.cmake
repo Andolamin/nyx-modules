@@ -26,4 +26,4 @@ set(MODULE_KEYS_WEBOS_LINUX			YES)
 set(MODULE_TOUCHPANEL_WEBOS_LINUX		NO)
 set(MODULE_TOUCHPANEL_MTDEV_WEBOS_LINUX		YES)
 
-add_definitions(-DTOUCHPANEL_DEVICE=\"/dev/input/event2\")
+add_definitions(-DTOUCHPANEL_DEVICE=\"/dev/input/event0\")
